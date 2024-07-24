@@ -1,0 +1,91 @@
+
+
+
+main>section>div>h1:first-child{
+    position: absolute;
+    font-size: 5em;
+    margin-top: calc(90vh/2.5);
+    margin-left: calc(99.7vw/2.3);
+}
+
+
+h2 {
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    color: white;
+}
+
+
+body > main > section:nth-child(1) > header:first-child {
+    width: 99.7vw;
+    background-color: red;
+    height: 10vh;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+
+body>main>section:nth-child(1)>div:nth-child(2){
+    width: 99.7vw;
+    height: 90vh;
+    background-color: cyan;
+    position: relative;
+    top:0;
+
+}
+
+
+body > main > section:nth-child(2) > header:first-child {
+    width: 99.7vw;
+    background-color: blue;
+    height: 10vh;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+body>main>section:nth-child(2)>div:nth-child(2){
+    width: 99.7vw;
+    height: 90vh;
+    background-color: lightblue;
+    position: relative;
+    top:0;
+}
+
+body > main > section:nth-child(3) > header:first-child {
+    width: 99.7vw;
+    background-color: yellow;
+    height: 10vh;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+body>main>section:nth-child(3)>div:nth-child(2){
+    width: 99.7vw;
+    height: 90vh;
+    background-color:gray;
+    position: relative;
+    top:0;
+}
+
+
+body > main > section:nth-child(4) > header:first-child {
+    width: 99.7vw;
+    background-color: darkgreen;
+    height: 10vh;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+
+body>main>section:nth-child(4)>div:nth-child(2){
+    width: 99.7vw;
+    height: 90vh;
+    background-color: lightgreen;
+    position: relative;
+    top:0;
+}
